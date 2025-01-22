@@ -20,15 +20,7 @@
   font-style: normal;
 }
 
-.navbar{
-    max-width: 1160px;
-    margin: 0 auto;
-}
-/* .shared-styles{
-    width: 1160px;
-    margin: 0 auto;
-    background-color: #F7F7F7;
-} */
+
 
 .color-one{
     color: #FEA301;
@@ -43,10 +35,14 @@
     color: #5D58EF;
 }
 
-header{
+header, main{
     background-color: #F7F7F7;
 }
+
+/* Navbar Design */
 .navbar{
+    max-width: 1160px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -106,14 +102,15 @@ header{
     display: none;
 }
 
+
+/* Banner Design */
 .banner{
     max-width: 1160px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     font-family: "Quicksand", serif;
-    gap: 50px
-    ;
+    gap: 50px;
 }
 
 .banner-headline{
@@ -142,6 +139,297 @@ header{
 }
 
 
+/* Standard Curriculum Design */
+.curriculum-section{
+    background-image: url(../assets/bg.png);
+}
+
+.curriculum{
+    max-width: 1160px;
+    margin: 0px auto;
+    font-family: "Quicksand", serif;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.curriculum h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.curriculum-cards{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.curriculum-card{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    border-radius: 20px;
+    padding: 52px 40px;
+}
+
+.card-item1{
+    border: .94px solid #DEF5FF;
+    background-image: linear-gradient(180deg, #DEF5FF, #FFFFFF);
+}
+.card-item2{
+    border: .94px solid #FFF4DC;
+    background-image: linear-gradient(180deg, #FFF4DC, #FFFFFF);
+}
+.card-item3{
+    border: .94px solid #EEE1FF;
+    background-image: linear-gradient(180deg, #EEE1FF, #FFFFFF);
+}
+
+.curriculum-card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #202020;
+}
+
+.curriculum-card-description{
+    font-family: "Raleway", serif;
+    font-size: 1rem;
+    font-weight: 500;
+    /* text-align: justify; */
+    line-height: 28px;
+    color: #808080;
+}
+
+.curriculum-card-btn{
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+}
+
+.card-item1 button{
+    color: #64C8FF;
+}
+.card-item2 button{
+    color: #F0AA00;
+}
+.card-item3 button{
+    color: #8700FF;
+}
+
+.curriculum-icon{
+    font-size: 50px;
+    font-weight: 900;
+    color: #FEA301;
+    margin-right: 10px;
+    margin-top: 80px;
+}
+
+.arrow-icon{
+    text-align: center;
+}
+
+
+/* Our Stories Design */
+.our-stories-section{
+    background-image: url(../assets/bg.png), linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3));
+}
+
+.stories h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.stories{
+    max-width: 1160px;
+    margin: 0px auto;
+    font-family: "Quicksand", serif;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.stories-main-card{
+    max-width: 540px;
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    background-color: white;
+}
+
+.stories-main-card-img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.stories-main-card-button{
+    font-family: "Raleway", serif;
+    font-size: .95rem;
+    font-weight: 500;
+    color:white;
+    padding: 14px 18px;
+    border-radius: 48px;
+    border: none;
+    background-color: #3CD8E8;
+    position: relative;
+    left: 38px;
+    bottom: 25px;
+}
+
+.stories-main-card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#000000;
+    margin-top: 36px;
+    margin-bottom: 51px;
+    margin-left: 38px;
+}
+
+.stories-main-card-description{
+    font-size: 1rem;
+    font-weight: 500;
+    color:#666666;
+    margin-bottom: 34px;
+    margin-left: 38px;
+    margin-right: 38px;
+    line-height: 28px;
+}
+
+.stories-cards{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.stories-other-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.stories-other-cards img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.stories-card{
+    /* border: 1px solid blue; */
+    border-radius: 16px;
+    background-color: white;
+    
+}
+
+.stories-card-btn{
+    font-family: "Raleway", serif;
+    font-size: .95rem;
+    font-weight: 500;
+    color:white;
+    padding: 10px 19px;
+    border-radius: 48px;
+    border: none;
+    background-color: #95B226;
+    position: relative;
+    left: 38px;
+    bottom: 25px;
+}
+
+.stories-card-title{
+    font-size: 1rem;
+    font-weight: bold;
+    color:#000000;
+    margin-bottom: 34px;
+    margin-left: 38px;
+    margin-right: 38px;
+    line-height: 28px;
+}
+
+.stories-btn{
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+/* Footer Design */
+footer{
+    background-color: #01ACFD;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: 0px auto;
+    font-family: "Quicksand", serif;
+    padding-top: 123px;
+    padding-bottom: 174px;
+    /* margin-top: 123px;
+    margin-bottom: 174px; */
+}
+
+.footer-box1{
+    max-width: 400px;
+}
+
+.footer-logo-title{
+    display: flex;
+}
+
+.footer-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.footer-logo{
+    width: 83px;
+    height: 83px;
+    background-color: white;
+}
+
+.footer-description{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+    margin-left: 7px;
+    margin-top: 35px;
+}
+
+.footer-links-title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.footer-links{
+    padding-left: 0px;
+}
+
+.footer-item{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 10px;
+}
+
+
+/* Mobile Responsive Design */
 @media screen and (max-width: 576px){
     .brand, .nav-links, .nav-btn{
         display: none;
@@ -182,7 +470,106 @@ header{
         color: white;
     }
 
-    /* .banner-headline, .banner-description, .banner-btn{
-        text-align: center;
-    } */
+    .curriculum-cards{
+        flex-direction: column;
+    }
+
+    .curriculum-section{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .curriculum h1{
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+
+    .curriculum-card-title{
+        font-size: 1rem;
+    }
+
+    .curriculum-card-description{
+        font-size: 0.7rem;
+    }
+
+    .curriculum-card-btn{
+        font-family: "Quicksand", serif;
+        font-size: 0.7rem;
+    }
+
+    .arrow-icon{
+        display: none;
+    }
+
+    .stories-main-card{
+        display: none;
+    }
+
+    .stories-other-cards{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .stories-card-btn{
+        font-size: 0.6rem;
+        padding: 6px 12px;
+        border-radius: 48px;
+        border: none;
+        background-color: #95B226;
+        position: relative;
+        left: 38px;
+        bottom: 17px;
+    }
+
+    .stories-card-title{
+        font-size: 0.7rem;
+        font-weight: bold;
+        color:#000000;
+        margin-bottom: 34px;
+        margin-left: 23px;
+        margin-right: 23px;
+        line-height: 17px;
+    }
+
+    .stories-btn{
+        margin-top: 20px;
+    }
+
+    .banner-btn{
+        border-radius: 12px;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 8px 37px;
+    }
+
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footer-box2{
+        margin-top: 32px;
+    }
+
+    .footer-box3{
+        margin-top: 32px;
+    }
+
+    .footer-title{
+        font-size: 2.2rem;
+    }
+
+    .footer-description{
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+        margin-left: 7px;
+        margin-top: 35px;
+    }
+    
+
 }
