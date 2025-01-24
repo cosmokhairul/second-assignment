@@ -151,6 +151,12 @@ header, main{
     color: white;
 }
 
+.banner-btn:hover{
+    background-color: #FEA301;
+    color: black;
+    cursor: pointer;
+}
+
 .banner-img{
     width: 100%;
 }
@@ -245,6 +251,10 @@ header, main{
     color: #FEA301;
     margin-right: 10px;
     margin-top: 80px;
+}
+
+.curriculum-icon:hover{
+    color: #db8b00;
 }
 
 .arrow-icon{
