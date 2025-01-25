@@ -65,6 +65,10 @@ header, main{
     margin: 0px 0px 0px 11px;
 }
 
+.brand:hover{
+    cursor: pointer;
+}
+
 .nav-links{
     display: flex;
     flex-direction: row;
@@ -81,6 +85,11 @@ header, main{
     font-family: "Quicksand", serif;
     font-size: 20px;
     font-weight: 500;
+}
+
+.nav-link:hover{
+    color: black;
+    font-weight: 600;
 }
 
 .nav-link1{
@@ -251,6 +260,21 @@ header, main{
     color: #8700FF;
 }
 
+.card-item1 button:hover{
+    color: #00a6ff;
+    cursor: pointer;
+}
+
+.card-item2 button:hover{
+    color: #b47e00;
+    cursor: pointer;
+}
+
+.card-item3 button:hover{
+    color: #5a00a8;
+    cursor: pointer;
+}
+
 .curriculum-icon{
     font-size: 50px;
     font-weight: 900;
@@ -261,6 +285,7 @@ header, main{
 
 .curriculum-icon:hover{
     color: #db8b00;
+    cursor: pointer;
 }
 
 .arrow-icon{
