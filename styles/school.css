@@ -98,6 +98,12 @@ header, main{
     color: white;
 }
 
+.nav-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
 .menu-icon{
     display: none;
 }
