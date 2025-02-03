@@ -339,6 +339,11 @@ header, main{
     bottom: 25px;
 }
 
+.stories-main-card-button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
 .stories-main-card-title{
     font-size: 1.5rem;
     font-weight: bold;
@@ -393,6 +398,23 @@ header, main{
     position: relative;
     left: 38px;
     bottom: 25px;
+}
+
+.stories-card-btn1:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.stories-card-btn2:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.stories-card-btn3:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.stories-card-btn4:hover{
+    background-color: black;
+    cursor: pointer;
 }
 
 .stories-card-btn2{
